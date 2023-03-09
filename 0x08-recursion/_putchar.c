@@ -4,7 +4,7 @@
  * this is my _putchar.c
  */
 
-int -putchar(char c)
+int _putchar(char c)
 {
 	return write(STDOUT-FILENO, &c, 1);
 }
